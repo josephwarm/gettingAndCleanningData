@@ -1,6 +1,7 @@
 # shared routine for each function
 
 library(dplyr)
+library(reshape2)
 
 trainPath    <- "UCI\ HAR\ Dataset\\train"
 testPath     <- "UCI\ HAR\ Dataset\\test"
@@ -66,13 +67,11 @@ create_avg_tidy_set <- function(activityDataset, trainDir = trainPath, testDir =
      combine_subject                      <- rbind(train_subject, test_subject)
      names(combine_subject)               <- "subjectID"
      activityDataset$"subjectID"          <- combine_subject$"subjectID"
-     # names(activityDataset)               <- gsub("(-|\\(|\\)|\\,)","",names(activityDataset))
-     # remove dup col names
      activityDataset                      <- activityDataset[, ! duplicated(colnames(activityDataset))]
-     activityDatasetGroup                 <- group_by(activityDataset, subjectID, activityName)
-     avgTidySet                           <- summarise_each(activityDatasetGroup, funs(mean(., na.rm=TRUE)))
-     names(avgTidySet)                    <- gsub("(-|\\(|\\)|\\,)","",names(avgTidySet))
-     avgTidySet
+     activityDataset_melt                 <- melt(activityDataset, id.vars = c("activityID", "activityName", "subjectID"))
+     # compute the mean 
+     activityDataset_tidy                 <- summarise(group_by(activityDataset_melt, activityName, subjectID, variable), mean_value = mean(value))
+     activityDataset_tidy
 }
 
 
