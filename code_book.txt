@@ -1,0 +1,4 @@
+"activityName": Name of the activity for the observation 
+"subjectID"   : The ID of candidate who performed this activity
+"variable"    : Type of the measurement, more infor please refer features.txt and features_info.txt
+"mean_value"  : Mean value for this measurement

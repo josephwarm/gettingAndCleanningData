@@ -1,564 +1,561 @@
-1	subjectID	ID of candidate
-2	activityName	name of the activity 
-3	tBodyAccmeanX	Check feature_info.txt
-4	tBodyAccmeanY	Check feature_info.txt
-5	tBodyAccmeanZ	Check feature_info.txt
-6	tBodyAccstdX	Check feature_info.txt
-7	tBodyAccstdY	Check feature_info.txt
-8	tBodyAccstdZ	Check feature_info.txt
-9	tBodyAccmadX	Check feature_info.txt
-10	tBodyAccmadY	Check feature_info.txt
-11	tBodyAccmadZ	Check feature_info.txt
-12	tBodyAccmaxX	Check feature_info.txt
-13	tBodyAccmaxY	Check feature_info.txt
-14	tBodyAccmaxZ	Check feature_info.txt
-15	tBodyAccminX	Check feature_info.txt
-16	tBodyAccminY	Check feature_info.txt
-17	tBodyAccminZ	Check feature_info.txt
-18	tBodyAccsma	Check feature_info.txt
-19	tBodyAccenergyX	Check feature_info.txt
-20	tBodyAccenergyY	Check feature_info.txt
-21	tBodyAccenergyZ	Check feature_info.txt
-22	tBodyAcciqrX	Check feature_info.txt
-23	tBodyAcciqrY	Check feature_info.txt
-24	tBodyAcciqrZ	Check feature_info.txt
-25	tBodyAccentropyX	Check feature_info.txt
-26	tBodyAccentropyY	Check feature_info.txt
-27	tBodyAccentropyZ	Check feature_info.txt
-28	tBodyAccarCoeffX1	Check feature_info.txt
-29	tBodyAccarCoeffX2	Check feature_info.txt
-30	tBodyAccarCoeffX3	Check feature_info.txt
-31	tBodyAccarCoeffX4	Check feature_info.txt
-32	tBodyAccarCoeffY1	Check feature_info.txt
-33	tBodyAccarCoeffY2	Check feature_info.txt
-34	tBodyAccarCoeffY3	Check feature_info.txt
-35	tBodyAccarCoeffY4	Check feature_info.txt
-36	tBodyAccarCoeffZ1	Check feature_info.txt
-37	tBodyAccarCoeffZ2	Check feature_info.txt
-38	tBodyAccarCoeffZ3	Check feature_info.txt
-39	tBodyAccarCoeffZ4	Check feature_info.txt
-40	tBodyAcccorrelationXY	Check feature_info.txt
-41	tBodyAcccorrelationXZ	Check feature_info.txt
-42	tBodyAcccorrelationYZ	Check feature_info.txt
-43	tGravityAccmeanX	Check feature_info.txt
-44	tGravityAccmeanY	Check feature_info.txt
-45	tGravityAccmeanZ	Check feature_info.txt
-46	tGravityAccstdX	Check feature_info.txt
-47	tGravityAccstdY	Check feature_info.txt
-48	tGravityAccstdZ	Check feature_info.txt
-49	tGravityAccmadX	Check feature_info.txt
-50	tGravityAccmadY	Check feature_info.txt
-51	tGravityAccmadZ	Check feature_info.txt
-52	tGravityAccmaxX	Check feature_info.txt
-53	tGravityAccmaxY	Check feature_info.txt
-54	tGravityAccmaxZ	Check feature_info.txt
-55	tGravityAccminX	Check feature_info.txt
-56	tGravityAccminY	Check feature_info.txt
-57	tGravityAccminZ	Check feature_info.txt
-58	tGravityAccsma	Check feature_info.txt
-59	tGravityAccenergyX	Check feature_info.txt
-60	tGravityAccenergyY	Check feature_info.txt
-61	tGravityAccenergyZ	Check feature_info.txt
-62	tGravityAcciqrX	Check feature_info.txt
-63	tGravityAcciqrY	Check feature_info.txt
-64	tGravityAcciqrZ	Check feature_info.txt
-65	tGravityAccentropyX	Check feature_info.txt
-66	tGravityAccentropyY	Check feature_info.txt
-67	tGravityAccentropyZ	Check feature_info.txt
-68	tGravityAccarCoeffX1	Check feature_info.txt
-69	tGravityAccarCoeffX2	Check feature_info.txt
-70	tGravityAccarCoeffX3	Check feature_info.txt
-71	tGravityAccarCoeffX4	Check feature_info.txt
-72	tGravityAccarCoeffY1	Check feature_info.txt
-73	tGravityAccarCoeffY2	Check feature_info.txt
-74	tGravityAccarCoeffY3	Check feature_info.txt
-75	tGravityAccarCoeffY4	Check feature_info.txt
-76	tGravityAccarCoeffZ1	Check feature_info.txt
-77	tGravityAccarCoeffZ2	Check feature_info.txt
-78	tGravityAccarCoeffZ3	Check feature_info.txt
-79	tGravityAccarCoeffZ4	Check feature_info.txt
-80	tGravityAcccorrelationXY	Check feature_info.txt
-81	tGravityAcccorrelationXZ	Check feature_info.txt
-82	tGravityAcccorrelationYZ	Check feature_info.txt
-83	tBodyAccJerkmeanX	Check feature_info.txt
-84	tBodyAccJerkmeanY	Check feature_info.txt
-85	tBodyAccJerkmeanZ	Check feature_info.txt
-86	tBodyAccJerkstdX	Check feature_info.txt
-87	tBodyAccJerkstdY	Check feature_info.txt
-88	tBodyAccJerkstdZ	Check feature_info.txt
-89	tBodyAccJerkmadX	Check feature_info.txt
-90	tBodyAccJerkmadY	Check feature_info.txt
-91	tBodyAccJerkmadZ	Check feature_info.txt
-92	tBodyAccJerkmaxX	Check feature_info.txt
-93	tBodyAccJerkmaxY	Check feature_info.txt
-94	tBodyAccJerkmaxZ	Check feature_info.txt
-95	tBodyAccJerkminX	Check feature_info.txt
-96	tBodyAccJerkminY	Check feature_info.txt
-97	tBodyAccJerkminZ	Check feature_info.txt
-98	tBodyAccJerksma	Check feature_info.txt
-99	tBodyAccJerkenergyX	Check feature_info.txt
-100	tBodyAccJerkenergyY	Check feature_info.txt
-101	tBodyAccJerkenergyZ	Check feature_info.txt
-102	tBodyAccJerkiqrX	Check feature_info.txt
-103	tBodyAccJerkiqrY	Check feature_info.txt
-104	tBodyAccJerkiqrZ	Check feature_info.txt
-105	tBodyAccJerkentropyX	Check feature_info.txt
-106	tBodyAccJerkentropyY	Check feature_info.txt
-107	tBodyAccJerkentropyZ	Check feature_info.txt
-108	tBodyAccJerkarCoeffX1	Check feature_info.txt
-109	tBodyAccJerkarCoeffX2	Check feature_info.txt
-110	tBodyAccJerkarCoeffX3	Check feature_info.txt
-111	tBodyAccJerkarCoeffX4	Check feature_info.txt
-112	tBodyAccJerkarCoeffY1	Check feature_info.txt
-113	tBodyAccJerkarCoeffY2	Check feature_info.txt
-114	tBodyAccJerkarCoeffY3	Check feature_info.txt
-115	tBodyAccJerkarCoeffY4	Check feature_info.txt
-116	tBodyAccJerkarCoeffZ1	Check feature_info.txt
-117	tBodyAccJerkarCoeffZ2	Check feature_info.txt
-118	tBodyAccJerkarCoeffZ3	Check feature_info.txt
-119	tBodyAccJerkarCoeffZ4	Check feature_info.txt
-120	tBodyAccJerkcorrelationXY	Check feature_info.txt
-121	tBodyAccJerkcorrelationXZ	Check feature_info.txt
-122	tBodyAccJerkcorrelationYZ	Check feature_info.txt
-123	tBodyGyromeanX	Check feature_info.txt
-124	tBodyGyromeanY	Check feature_info.txt
-125	tBodyGyromeanZ	Check feature_info.txt
-126	tBodyGyrostdX	Check feature_info.txt
-127	tBodyGyrostdY	Check feature_info.txt
-128	tBodyGyrostdZ	Check feature_info.txt
-129	tBodyGyromadX	Check feature_info.txt
-130	tBodyGyromadY	Check feature_info.txt
-131	tBodyGyromadZ	Check feature_info.txt
-132	tBodyGyromaxX	Check feature_info.txt
-133	tBodyGyromaxY	Check feature_info.txt
-134	tBodyGyromaxZ	Check feature_info.txt
-135	tBodyGyrominX	Check feature_info.txt
-136	tBodyGyrominY	Check feature_info.txt
-137	tBodyGyrominZ	Check feature_info.txt
-138	tBodyGyrosma	Check feature_info.txt
-139	tBodyGyroenergyX	Check feature_info.txt
-140	tBodyGyroenergyY	Check feature_info.txt
-141	tBodyGyroenergyZ	Check feature_info.txt
-142	tBodyGyroiqrX	Check feature_info.txt
-143	tBodyGyroiqrY	Check feature_info.txt
-144	tBodyGyroiqrZ	Check feature_info.txt
-145	tBodyGyroentropyX	Check feature_info.txt
-146	tBodyGyroentropyY	Check feature_info.txt
-147	tBodyGyroentropyZ	Check feature_info.txt
-148	tBodyGyroarCoeffX1	Check feature_info.txt
-149	tBodyGyroarCoeffX2	Check feature_info.txt
-150	tBodyGyroarCoeffX3	Check feature_info.txt
-151	tBodyGyroarCoeffX4	Check feature_info.txt
-152	tBodyGyroarCoeffY1	Check feature_info.txt
-153	tBodyGyroarCoeffY2	Check feature_info.txt
-154	tBodyGyroarCoeffY3	Check feature_info.txt
-155	tBodyGyroarCoeffY4	Check feature_info.txt
-156	tBodyGyroarCoeffZ1	Check feature_info.txt
-157	tBodyGyroarCoeffZ2	Check feature_info.txt
-158	tBodyGyroarCoeffZ3	Check feature_info.txt
-159	tBodyGyroarCoeffZ4	Check feature_info.txt
-160	tBodyGyrocorrelationXY	Check feature_info.txt
-161	tBodyGyrocorrelationXZ	Check feature_info.txt
-162	tBodyGyrocorrelationYZ	Check feature_info.txt
-163	tBodyGyroJerkmeanX	Check feature_info.txt
-164	tBodyGyroJerkmeanY	Check feature_info.txt
-165	tBodyGyroJerkmeanZ	Check feature_info.txt
-166	tBodyGyroJerkstdX	Check feature_info.txt
-167	tBodyGyroJerkstdY	Check feature_info.txt
-168	tBodyGyroJerkstdZ	Check feature_info.txt
-169	tBodyGyroJerkmadX	Check feature_info.txt
-170	tBodyGyroJerkmadY	Check feature_info.txt
-171	tBodyGyroJerkmadZ	Check feature_info.txt
-172	tBodyGyroJerkmaxX	Check feature_info.txt
-173	tBodyGyroJerkmaxY	Check feature_info.txt
-174	tBodyGyroJerkmaxZ	Check feature_info.txt
-175	tBodyGyroJerkminX	Check feature_info.txt
-176	tBodyGyroJerkminY	Check feature_info.txt
-177	tBodyGyroJerkminZ	Check feature_info.txt
-178	tBodyGyroJerksma	Check feature_info.txt
-179	tBodyGyroJerkenergyX	Check feature_info.txt
-180	tBodyGyroJerkenergyY	Check feature_info.txt
-181	tBodyGyroJerkenergyZ	Check feature_info.txt
-182	tBodyGyroJerkiqrX	Check feature_info.txt
-183	tBodyGyroJerkiqrY	Check feature_info.txt
-184	tBodyGyroJerkiqrZ	Check feature_info.txt
-185	tBodyGyroJerkentropyX	Check feature_info.txt
-186	tBodyGyroJerkentropyY	Check feature_info.txt
-187	tBodyGyroJerkentropyZ	Check feature_info.txt
-188	tBodyGyroJerkarCoeffX1	Check feature_info.txt
-189	tBodyGyroJerkarCoeffX2	Check feature_info.txt
-190	tBodyGyroJerkarCoeffX3	Check feature_info.txt
-191	tBodyGyroJerkarCoeffX4	Check feature_info.txt
-192	tBodyGyroJerkarCoeffY1	Check feature_info.txt
-193	tBodyGyroJerkarCoeffY2	Check feature_info.txt
-194	tBodyGyroJerkarCoeffY3	Check feature_info.txt
-195	tBodyGyroJerkarCoeffY4	Check feature_info.txt
-196	tBodyGyroJerkarCoeffZ1	Check feature_info.txt
-197	tBodyGyroJerkarCoeffZ2	Check feature_info.txt
-198	tBodyGyroJerkarCoeffZ3	Check feature_info.txt
-199	tBodyGyroJerkarCoeffZ4	Check feature_info.txt
-200	tBodyGyroJerkcorrelationXY	Check feature_info.txt
-201	tBodyGyroJerkcorrelationXZ	Check feature_info.txt
-202	tBodyGyroJerkcorrelationYZ	Check feature_info.txt
-203	tBodyAccMagmean	Check feature_info.txt
-204	tBodyAccMagstd	Check feature_info.txt
-205	tBodyAccMagmad	Check feature_info.txt
-206	tBodyAccMagmax	Check feature_info.txt
-207	tBodyAccMagmin	Check feature_info.txt
-208	tBodyAccMagsma	Check feature_info.txt
-209	tBodyAccMagenergy	Check feature_info.txt
-210	tBodyAccMagiqr	Check feature_info.txt
-211	tBodyAccMagentropy	Check feature_info.txt
-212	tBodyAccMagarCoeff1	Check feature_info.txt
-213	tBodyAccMagarCoeff2	Check feature_info.txt
-214	tBodyAccMagarCoeff3	Check feature_info.txt
-215	tBodyAccMagarCoeff4	Check feature_info.txt
-216	tGravityAccMagmean	Check feature_info.txt
-217	tGravityAccMagstd	Check feature_info.txt
-218	tGravityAccMagmad	Check feature_info.txt
-219	tGravityAccMagmax	Check feature_info.txt
-220	tGravityAccMagmin	Check feature_info.txt
-221	tGravityAccMagsma	Check feature_info.txt
-222	tGravityAccMagenergy	Check feature_info.txt
-223	tGravityAccMagiqr	Check feature_info.txt
-224	tGravityAccMagentropy	Check feature_info.txt
-225	tGravityAccMagarCoeff1	Check feature_info.txt
-226	tGravityAccMagarCoeff2	Check feature_info.txt
-227	tGravityAccMagarCoeff3	Check feature_info.txt
-228	tGravityAccMagarCoeff4	Check feature_info.txt
-229	tBodyAccJerkMagmean	Check feature_info.txt
-230	tBodyAccJerkMagstd	Check feature_info.txt
-231	tBodyAccJerkMagmad	Check feature_info.txt
-232	tBodyAccJerkMagmax	Check feature_info.txt
-233	tBodyAccJerkMagmin	Check feature_info.txt
-234	tBodyAccJerkMagsma	Check feature_info.txt
-235	tBodyAccJerkMagenergy	Check feature_info.txt
-236	tBodyAccJerkMagiqr	Check feature_info.txt
-237	tBodyAccJerkMagentropy	Check feature_info.txt
-238	tBodyAccJerkMagarCoeff1	Check feature_info.txt
-239	tBodyAccJerkMagarCoeff2	Check feature_info.txt
-240	tBodyAccJerkMagarCoeff3	Check feature_info.txt
-241	tBodyAccJerkMagarCoeff4	Check feature_info.txt
-242	tBodyGyroMagmean	Check feature_info.txt
-243	tBodyGyroMagstd	Check feature_info.txt
-244	tBodyGyroMagmad	Check feature_info.txt
-245	tBodyGyroMagmax	Check feature_info.txt
-246	tBodyGyroMagmin	Check feature_info.txt
-247	tBodyGyroMagsma	Check feature_info.txt
-248	tBodyGyroMagenergy	Check feature_info.txt
-249	tBodyGyroMagiqr	Check feature_info.txt
-250	tBodyGyroMagentropy	Check feature_info.txt
-251	tBodyGyroMagarCoeff1	Check feature_info.txt
-252	tBodyGyroMagarCoeff2	Check feature_info.txt
-253	tBodyGyroMagarCoeff3	Check feature_info.txt
-254	tBodyGyroMagarCoeff4	Check feature_info.txt
-255	tBodyGyroJerkMagmean	Check feature_info.txt
-256	tBodyGyroJerkMagstd	Check feature_info.txt
-257	tBodyGyroJerkMagmad	Check feature_info.txt
-258	tBodyGyroJerkMagmax	Check feature_info.txt
-259	tBodyGyroJerkMagmin	Check feature_info.txt
-260	tBodyGyroJerkMagsma	Check feature_info.txt
-261	tBodyGyroJerkMagenergy	Check feature_info.txt
-262	tBodyGyroJerkMagiqr	Check feature_info.txt
-263	tBodyGyroJerkMagentropy	Check feature_info.txt
-264	tBodyGyroJerkMagarCoeff1	Check feature_info.txt
-265	tBodyGyroJerkMagarCoeff2	Check feature_info.txt
-266	tBodyGyroJerkMagarCoeff3	Check feature_info.txt
-267	tBodyGyroJerkMagarCoeff4	Check feature_info.txt
-268	fBodyAccmeanX	Check feature_info.txt
-269	fBodyAccmeanY	Check feature_info.txt
-270	fBodyAccmeanZ	Check feature_info.txt
-271	fBodyAccstdX	Check feature_info.txt
-272	fBodyAccstdY	Check feature_info.txt
-273	fBodyAccstdZ	Check feature_info.txt
-274	fBodyAccmadX	Check feature_info.txt
-275	fBodyAccmadY	Check feature_info.txt
-276	fBodyAccmadZ	Check feature_info.txt
-277	fBodyAccmaxX	Check feature_info.txt
-278	fBodyAccmaxY	Check feature_info.txt
-279	fBodyAccmaxZ	Check feature_info.txt
-280	fBodyAccminX	Check feature_info.txt
-281	fBodyAccminY	Check feature_info.txt
-282	fBodyAccminZ	Check feature_info.txt
-283	fBodyAccsma	Check feature_info.txt
-284	fBodyAccenergyX	Check feature_info.txt
-285	fBodyAccenergyY	Check feature_info.txt
-286	fBodyAccenergyZ	Check feature_info.txt
-287	fBodyAcciqrX	Check feature_info.txt
-288	fBodyAcciqrY	Check feature_info.txt
-289	fBodyAcciqrZ	Check feature_info.txt
-290	fBodyAccentropyX	Check feature_info.txt
-291	fBodyAccentropyY	Check feature_info.txt
-292	fBodyAccentropyZ	Check feature_info.txt
-293	fBodyAccmaxIndsX	Check feature_info.txt
-294	fBodyAccmaxIndsY	Check feature_info.txt
-295	fBodyAccmaxIndsZ	Check feature_info.txt
-296	fBodyAccmeanFreqX	Check feature_info.txt
-297	fBodyAccmeanFreqY	Check feature_info.txt
-298	fBodyAccmeanFreqZ	Check feature_info.txt
-299	fBodyAccskewnessX	Check feature_info.txt
-300	fBodyAcckurtosisX	Check feature_info.txt
-301	fBodyAccskewnessY	Check feature_info.txt
-302	fBodyAcckurtosisY	Check feature_info.txt
-303	fBodyAccskewnessZ	Check feature_info.txt
-304	fBodyAcckurtosisZ	Check feature_info.txt
-305	fBodyAccbandsEnergy18	Check feature_info.txt
-306	fBodyAccbandsEnergy916	Check feature_info.txt
-307	fBodyAccbandsEnergy1724	Check feature_info.txt
-308	fBodyAccbandsEnergy2532	Check feature_info.txt
-309	fBodyAccbandsEnergy3340	Check feature_info.txt
-310	fBodyAccbandsEnergy4148	Check feature_info.txt
-311	fBodyAccbandsEnergy4956	Check feature_info.txt
-312	fBodyAccbandsEnergy5764	Check feature_info.txt
-313	fBodyAccbandsEnergy116	Check feature_info.txt
-314	fBodyAccbandsEnergy1732	Check feature_info.txt
-315	fBodyAccbandsEnergy3348	Check feature_info.txt
-316	fBodyAccbandsEnergy4964	Check feature_info.txt
-317	fBodyAccbandsEnergy124	Check feature_info.txt
-318	fBodyAccbandsEnergy2548	Check feature_info.txt
-319	fBodyAccbandsEnergy18	Check feature_info.txt
-320	fBodyAccbandsEnergy916	Check feature_info.txt
-321	fBodyAccbandsEnergy1724	Check feature_info.txt
-322	fBodyAccbandsEnergy2532	Check feature_info.txt
-323	fBodyAccbandsEnergy3340	Check feature_info.txt
-324	fBodyAccbandsEnergy4148	Check feature_info.txt
-325	fBodyAccbandsEnergy4956	Check feature_info.txt
-326	fBodyAccbandsEnergy5764	Check feature_info.txt
-327	fBodyAccbandsEnergy116	Check feature_info.txt
-328	fBodyAccbandsEnergy1732	Check feature_info.txt
-329	fBodyAccbandsEnergy3348	Check feature_info.txt
-330	fBodyAccbandsEnergy4964	Check feature_info.txt
-331	fBodyAccbandsEnergy124	Check feature_info.txt
-332	fBodyAccbandsEnergy2548	Check feature_info.txt
-333	fBodyAccbandsEnergy18	Check feature_info.txt
-334	fBodyAccbandsEnergy916	Check feature_info.txt
-335	fBodyAccbandsEnergy1724	Check feature_info.txt
-336	fBodyAccbandsEnergy2532	Check feature_info.txt
-337	fBodyAccbandsEnergy3340	Check feature_info.txt
-338	fBodyAccbandsEnergy4148	Check feature_info.txt
-339	fBodyAccbandsEnergy4956	Check feature_info.txt
-340	fBodyAccbandsEnergy5764	Check feature_info.txt
-341	fBodyAccbandsEnergy116	Check feature_info.txt
-342	fBodyAccbandsEnergy1732	Check feature_info.txt
-343	fBodyAccbandsEnergy3348	Check feature_info.txt
-344	fBodyAccbandsEnergy4964	Check feature_info.txt
-345	fBodyAccbandsEnergy124	Check feature_info.txt
-346	fBodyAccbandsEnergy2548	Check feature_info.txt
-347	fBodyAccJerkmeanX	Check feature_info.txt
-348	fBodyAccJerkmeanY	Check feature_info.txt
-349	fBodyAccJerkmeanZ	Check feature_info.txt
-350	fBodyAccJerkstdX	Check feature_info.txt
-351	fBodyAccJerkstdY	Check feature_info.txt
-352	fBodyAccJerkstdZ	Check feature_info.txt
-353	fBodyAccJerkmadX	Check feature_info.txt
-354	fBodyAccJerkmadY	Check feature_info.txt
-355	fBodyAccJerkmadZ	Check feature_info.txt
-356	fBodyAccJerkmaxX	Check feature_info.txt
-357	fBodyAccJerkmaxY	Check feature_info.txt
-358	fBodyAccJerkmaxZ	Check feature_info.txt
-359	fBodyAccJerkminX	Check feature_info.txt
-360	fBodyAccJerkminY	Check feature_info.txt
-361	fBodyAccJerkminZ	Check feature_info.txt
-362	fBodyAccJerksma	Check feature_info.txt
-363	fBodyAccJerkenergyX	Check feature_info.txt
-364	fBodyAccJerkenergyY	Check feature_info.txt
-365	fBodyAccJerkenergyZ	Check feature_info.txt
-366	fBodyAccJerkiqrX	Check feature_info.txt
-367	fBodyAccJerkiqrY	Check feature_info.txt
-368	fBodyAccJerkiqrZ	Check feature_info.txt
-369	fBodyAccJerkentropyX	Check feature_info.txt
-370	fBodyAccJerkentropyY	Check feature_info.txt
-371	fBodyAccJerkentropyZ	Check feature_info.txt
-372	fBodyAccJerkmaxIndsX	Check feature_info.txt
-373	fBodyAccJerkmaxIndsY	Check feature_info.txt
-374	fBodyAccJerkmaxIndsZ	Check feature_info.txt
-375	fBodyAccJerkmeanFreqX	Check feature_info.txt
-376	fBodyAccJerkmeanFreqY	Check feature_info.txt
-377	fBodyAccJerkmeanFreqZ	Check feature_info.txt
-378	fBodyAccJerkskewnessX	Check feature_info.txt
-379	fBodyAccJerkkurtosisX	Check feature_info.txt
-380	fBodyAccJerkskewnessY	Check feature_info.txt
-381	fBodyAccJerkkurtosisY	Check feature_info.txt
-382	fBodyAccJerkskewnessZ	Check feature_info.txt
-383	fBodyAccJerkkurtosisZ	Check feature_info.txt
-384	fBodyAccJerkbandsEnergy18	Check feature_info.txt
-385	fBodyAccJerkbandsEnergy916	Check feature_info.txt
-386	fBodyAccJerkbandsEnergy1724	Check feature_info.txt
-387	fBodyAccJerkbandsEnergy2532	Check feature_info.txt
-388	fBodyAccJerkbandsEnergy3340	Check feature_info.txt
-389	fBodyAccJerkbandsEnergy4148	Check feature_info.txt
-390	fBodyAccJerkbandsEnergy4956	Check feature_info.txt
-391	fBodyAccJerkbandsEnergy5764	Check feature_info.txt
-392	fBodyAccJerkbandsEnergy116	Check feature_info.txt
-393	fBodyAccJerkbandsEnergy1732	Check feature_info.txt
-394	fBodyAccJerkbandsEnergy3348	Check feature_info.txt
-395	fBodyAccJerkbandsEnergy4964	Check feature_info.txt
-396	fBodyAccJerkbandsEnergy124	Check feature_info.txt
-397	fBodyAccJerkbandsEnergy2548	Check feature_info.txt
-398	fBodyAccJerkbandsEnergy18	Check feature_info.txt
-399	fBodyAccJerkbandsEnergy916	Check feature_info.txt
-400	fBodyAccJerkbandsEnergy1724	Check feature_info.txt
-401	fBodyAccJerkbandsEnergy2532	Check feature_info.txt
-402	fBodyAccJerkbandsEnergy3340	Check feature_info.txt
-403	fBodyAccJerkbandsEnergy4148	Check feature_info.txt
-404	fBodyAccJerkbandsEnergy4956	Check feature_info.txt
-405	fBodyAccJerkbandsEnergy5764	Check feature_info.txt
-406	fBodyAccJerkbandsEnergy116	Check feature_info.txt
-407	fBodyAccJerkbandsEnergy1732	Check feature_info.txt
-408	fBodyAccJerkbandsEnergy3348	Check feature_info.txt
-409	fBodyAccJerkbandsEnergy4964	Check feature_info.txt
-410	fBodyAccJerkbandsEnergy124	Check feature_info.txt
-411	fBodyAccJerkbandsEnergy2548	Check feature_info.txt
-412	fBodyAccJerkbandsEnergy18	Check feature_info.txt
-413	fBodyAccJerkbandsEnergy916	Check feature_info.txt
-414	fBodyAccJerkbandsEnergy1724	Check feature_info.txt
-415	fBodyAccJerkbandsEnergy2532	Check feature_info.txt
-416	fBodyAccJerkbandsEnergy3340	Check feature_info.txt
-417	fBodyAccJerkbandsEnergy4148	Check feature_info.txt
-418	fBodyAccJerkbandsEnergy4956	Check feature_info.txt
-419	fBodyAccJerkbandsEnergy5764	Check feature_info.txt
-420	fBodyAccJerkbandsEnergy116	Check feature_info.txt
-421	fBodyAccJerkbandsEnergy1732	Check feature_info.txt
-422	fBodyAccJerkbandsEnergy3348	Check feature_info.txt
-423	fBodyAccJerkbandsEnergy4964	Check feature_info.txt
-424	fBodyAccJerkbandsEnergy124	Check feature_info.txt
-425	fBodyAccJerkbandsEnergy2548	Check feature_info.txt
-426	fBodyGyromeanX	Check feature_info.txt
-427	fBodyGyromeanY	Check feature_info.txt
-428	fBodyGyromeanZ	Check feature_info.txt
-429	fBodyGyrostdX	Check feature_info.txt
-430	fBodyGyrostdY	Check feature_info.txt
-431	fBodyGyrostdZ	Check feature_info.txt
-432	fBodyGyromadX	Check feature_info.txt
-433	fBodyGyromadY	Check feature_info.txt
-434	fBodyGyromadZ	Check feature_info.txt
-435	fBodyGyromaxX	Check feature_info.txt
-436	fBodyGyromaxY	Check feature_info.txt
-437	fBodyGyromaxZ	Check feature_info.txt
-438	fBodyGyrominX	Check feature_info.txt
-439	fBodyGyrominY	Check feature_info.txt
-440	fBodyGyrominZ	Check feature_info.txt
-441	fBodyGyrosma	Check feature_info.txt
-442	fBodyGyroenergyX	Check feature_info.txt
-443	fBodyGyroenergyY	Check feature_info.txt
-444	fBodyGyroenergyZ	Check feature_info.txt
-445	fBodyGyroiqrX	Check feature_info.txt
-446	fBodyGyroiqrY	Check feature_info.txt
-447	fBodyGyroiqrZ	Check feature_info.txt
-448	fBodyGyroentropyX	Check feature_info.txt
-449	fBodyGyroentropyY	Check feature_info.txt
-450	fBodyGyroentropyZ	Check feature_info.txt
-451	fBodyGyromaxIndsX	Check feature_info.txt
-452	fBodyGyromaxIndsY	Check feature_info.txt
-453	fBodyGyromaxIndsZ	Check feature_info.txt
-454	fBodyGyromeanFreqX	Check feature_info.txt
-455	fBodyGyromeanFreqY	Check feature_info.txt
-456	fBodyGyromeanFreqZ	Check feature_info.txt
-457	fBodyGyroskewnessX	Check feature_info.txt
-458	fBodyGyrokurtosisX	Check feature_info.txt
-459	fBodyGyroskewnessY	Check feature_info.txt
-460	fBodyGyrokurtosisY	Check feature_info.txt
-461	fBodyGyroskewnessZ	Check feature_info.txt
-462	fBodyGyrokurtosisZ	Check feature_info.txt
-463	fBodyGyrobandsEnergy18	Check feature_info.txt
-464	fBodyGyrobandsEnergy916	Check feature_info.txt
-465	fBodyGyrobandsEnergy1724	Check feature_info.txt
-466	fBodyGyrobandsEnergy2532	Check feature_info.txt
-467	fBodyGyrobandsEnergy3340	Check feature_info.txt
-468	fBodyGyrobandsEnergy4148	Check feature_info.txt
-469	fBodyGyrobandsEnergy4956	Check feature_info.txt
-470	fBodyGyrobandsEnergy5764	Check feature_info.txt
-471	fBodyGyrobandsEnergy116	Check feature_info.txt
-472	fBodyGyrobandsEnergy1732	Check feature_info.txt
-473	fBodyGyrobandsEnergy3348	Check feature_info.txt
-474	fBodyGyrobandsEnergy4964	Check feature_info.txt
-475	fBodyGyrobandsEnergy124	Check feature_info.txt
-476	fBodyGyrobandsEnergy2548	Check feature_info.txt
-477	fBodyGyrobandsEnergy18	Check feature_info.txt
-478	fBodyGyrobandsEnergy916	Check feature_info.txt
-479	fBodyGyrobandsEnergy1724	Check feature_info.txt
-480	fBodyGyrobandsEnergy2532	Check feature_info.txt
-481	fBodyGyrobandsEnergy3340	Check feature_info.txt
-482	fBodyGyrobandsEnergy4148	Check feature_info.txt
-483	fBodyGyrobandsEnergy4956	Check feature_info.txt
-484	fBodyGyrobandsEnergy5764	Check feature_info.txt
-485	fBodyGyrobandsEnergy116	Check feature_info.txt
-486	fBodyGyrobandsEnergy1732	Check feature_info.txt
-487	fBodyGyrobandsEnergy3348	Check feature_info.txt
-488	fBodyGyrobandsEnergy4964	Check feature_info.txt
-489	fBodyGyrobandsEnergy124	Check feature_info.txt
-490	fBodyGyrobandsEnergy2548	Check feature_info.txt
-491	fBodyGyrobandsEnergy18	Check feature_info.txt
-492	fBodyGyrobandsEnergy916	Check feature_info.txt
-493	fBodyGyrobandsEnergy1724	Check feature_info.txt
-494	fBodyGyrobandsEnergy2532	Check feature_info.txt
-495	fBodyGyrobandsEnergy3340	Check feature_info.txt
-496	fBodyGyrobandsEnergy4148	Check feature_info.txt
-497	fBodyGyrobandsEnergy4956	Check feature_info.txt
-498	fBodyGyrobandsEnergy5764	Check feature_info.txt
-499	fBodyGyrobandsEnergy116	Check feature_info.txt
-500	fBodyGyrobandsEnergy1732	Check feature_info.txt
-501	fBodyGyrobandsEnergy3348	Check feature_info.txt
-502	fBodyGyrobandsEnergy4964	Check feature_info.txt
-503	fBodyGyrobandsEnergy124	Check feature_info.txt
-504	fBodyGyrobandsEnergy2548	Check feature_info.txt
-505	fBodyAccMagmean	Check feature_info.txt
-506	fBodyAccMagstd	Check feature_info.txt
-507	fBodyAccMagmad	Check feature_info.txt
-508	fBodyAccMagmax	Check feature_info.txt
-509	fBodyAccMagmin	Check feature_info.txt
-510	fBodyAccMagsma	Check feature_info.txt
-511	fBodyAccMagenergy	Check feature_info.txt
-512	fBodyAccMagiqr	Check feature_info.txt
-513	fBodyAccMagentropy	Check feature_info.txt
-514	fBodyAccMagmaxInds	Check feature_info.txt
-515	fBodyAccMagmeanFreq	Check feature_info.txt
-516	fBodyAccMagskewness	Check feature_info.txt
-517	fBodyAccMagkurtosis	Check feature_info.txt
-518	fBodyBodyAccJerkMagmean	Check feature_info.txt
-519	fBodyBodyAccJerkMagstd	Check feature_info.txt
-520	fBodyBodyAccJerkMagmad	Check feature_info.txt
-521	fBodyBodyAccJerkMagmax	Check feature_info.txt
-522	fBodyBodyAccJerkMagmin	Check feature_info.txt
-523	fBodyBodyAccJerkMagsma	Check feature_info.txt
-524	fBodyBodyAccJerkMagenergy	Check feature_info.txt
-525	fBodyBodyAccJerkMagiqr	Check feature_info.txt
-526	fBodyBodyAccJerkMagentropy	Check feature_info.txt
-527	fBodyBodyAccJerkMagmaxInds	Check feature_info.txt
-528	fBodyBodyAccJerkMagmeanFreq	Check feature_info.txt
-529	fBodyBodyAccJerkMagskewness	Check feature_info.txt
-530	fBodyBodyAccJerkMagkurtosis	Check feature_info.txt
-531	fBodyBodyGyroMagmean	Check feature_info.txt
-532	fBodyBodyGyroMagstd	Check feature_info.txt
-533	fBodyBodyGyroMagmad	Check feature_info.txt
-534	fBodyBodyGyroMagmax	Check feature_info.txt
-535	fBodyBodyGyroMagmin	Check feature_info.txt
-536	fBodyBodyGyroMagsma	Check feature_info.txt
-537	fBodyBodyGyroMagenergy	Check feature_info.txt
-538	fBodyBodyGyroMagiqr	Check feature_info.txt
-539	fBodyBodyGyroMagentropy	Check feature_info.txt
-540	fBodyBodyGyroMagmaxInds	Check feature_info.txt
-541	fBodyBodyGyroMagmeanFreq	Check feature_info.txt
-542	fBodyBodyGyroMagskewness	Check feature_info.txt
-543	fBodyBodyGyroMagkurtosis	Check feature_info.txt
-544	fBodyBodyGyroJerkMagmean	Check feature_info.txt
-545	fBodyBodyGyroJerkMagstd	Check feature_info.txt
-546	fBodyBodyGyroJerkMagmad	Check feature_info.txt
-547	fBodyBodyGyroJerkMagmax	Check feature_info.txt
-548	fBodyBodyGyroJerkMagmin	Check feature_info.txt
-549	fBodyBodyGyroJerkMagsma	Check feature_info.txt
-550	fBodyBodyGyroJerkMagenergy	Check feature_info.txt
-551	fBodyBodyGyroJerkMagiqr	Check feature_info.txt
-552	fBodyBodyGyroJerkMagentropy	Check feature_info.txt
-553	fBodyBodyGyroJerkMagmaxInds	Check feature_info.txt
-554	fBodyBodyGyroJerkMagmeanFreq	Check feature_info.txt
-555	fBodyBodyGyroJerkMagskewness	Check feature_info.txt
-556	fBodyBodyGyroJerkMagkurtosis	Check feature_info.txt
-557	angle(tBodyAccMeangravity)	Check feature_info.txt
-558	angle(tBodyAccJerkMean)gravityMean)	Check feature_info.txt
-559	angle(tBodyGyroMeangravityMean)	Check feature_info.txt
-560	angle(tBodyGyroJerkMeangravityMean)	Check feature_info.txt
-561	angle(XgravityMean)	Check feature_info.txt
-562	angle(YgravityMean)	Check feature_info.txt
-563	angle(ZgravityMean)	Check feature_info.txt
-564	activityID	Id of the activity 
+1 tBodyAcc-mean()-X
+2 tBodyAcc-mean()-Y
+3 tBodyAcc-mean()-Z
+4 tBodyAcc-std()-X
+5 tBodyAcc-std()-Y
+6 tBodyAcc-std()-Z
+7 tBodyAcc-mad()-X
+8 tBodyAcc-mad()-Y
+9 tBodyAcc-mad()-Z
+10 tBodyAcc-max()-X
+11 tBodyAcc-max()-Y
+12 tBodyAcc-max()-Z
+13 tBodyAcc-min()-X
+14 tBodyAcc-min()-Y
+15 tBodyAcc-min()-Z
+16 tBodyAcc-sma()
+17 tBodyAcc-energy()-X
+18 tBodyAcc-energy()-Y
+19 tBodyAcc-energy()-Z
+20 tBodyAcc-iqr()-X
+21 tBodyAcc-iqr()-Y
+22 tBodyAcc-iqr()-Z
+23 tBodyAcc-entropy()-X
+24 tBodyAcc-entropy()-Y
+25 tBodyAcc-entropy()-Z
+26 tBodyAcc-arCoeff()-X,1
+27 tBodyAcc-arCoeff()-X,2
+28 tBodyAcc-arCoeff()-X,3
+29 tBodyAcc-arCoeff()-X,4
+30 tBodyAcc-arCoeff()-Y,1
+31 tBodyAcc-arCoeff()-Y,2
+32 tBodyAcc-arCoeff()-Y,3
+33 tBodyAcc-arCoeff()-Y,4
+34 tBodyAcc-arCoeff()-Z,1
+35 tBodyAcc-arCoeff()-Z,2
+36 tBodyAcc-arCoeff()-Z,3
+37 tBodyAcc-arCoeff()-Z,4
+38 tBodyAcc-correlation()-X,Y
+39 tBodyAcc-correlation()-X,Z
+40 tBodyAcc-correlation()-Y,Z
+41 tGravityAcc-mean()-X
+42 tGravityAcc-mean()-Y
+43 tGravityAcc-mean()-Z
+44 tGravityAcc-std()-X
+45 tGravityAcc-std()-Y
+46 tGravityAcc-std()-Z
+47 tGravityAcc-mad()-X
+48 tGravityAcc-mad()-Y
+49 tGravityAcc-mad()-Z
+50 tGravityAcc-max()-X
+51 tGravityAcc-max()-Y
+52 tGravityAcc-max()-Z
+53 tGravityAcc-min()-X
+54 tGravityAcc-min()-Y
+55 tGravityAcc-min()-Z
+56 tGravityAcc-sma()
+57 tGravityAcc-energy()-X
+58 tGravityAcc-energy()-Y
+59 tGravityAcc-energy()-Z
+60 tGravityAcc-iqr()-X
+61 tGravityAcc-iqr()-Y
+62 tGravityAcc-iqr()-Z
+63 tGravityAcc-entropy()-X
+64 tGravityAcc-entropy()-Y
+65 tGravityAcc-entropy()-Z
+66 tGravityAcc-arCoeff()-X,1
+67 tGravityAcc-arCoeff()-X,2
+68 tGravityAcc-arCoeff()-X,3
+69 tGravityAcc-arCoeff()-X,4
+70 tGravityAcc-arCoeff()-Y,1
+71 tGravityAcc-arCoeff()-Y,2
+72 tGravityAcc-arCoeff()-Y,3
+73 tGravityAcc-arCoeff()-Y,4
+74 tGravityAcc-arCoeff()-Z,1
+75 tGravityAcc-arCoeff()-Z,2
+76 tGravityAcc-arCoeff()-Z,3
+77 tGravityAcc-arCoeff()-Z,4
+78 tGravityAcc-correlation()-X,Y
+79 tGravityAcc-correlation()-X,Z
+80 tGravityAcc-correlation()-Y,Z
+81 tBodyAccJerk-mean()-X
+82 tBodyAccJerk-mean()-Y
+83 tBodyAccJerk-mean()-Z
+84 tBodyAccJerk-std()-X
+85 tBodyAccJerk-std()-Y
+86 tBodyAccJerk-std()-Z
+87 tBodyAccJerk-mad()-X
+88 tBodyAccJerk-mad()-Y
+89 tBodyAccJerk-mad()-Z
+90 tBodyAccJerk-max()-X
+91 tBodyAccJerk-max()-Y
+92 tBodyAccJerk-max()-Z
+93 tBodyAccJerk-min()-X
+94 tBodyAccJerk-min()-Y
+95 tBodyAccJerk-min()-Z
+96 tBodyAccJerk-sma()
+97 tBodyAccJerk-energy()-X
+98 tBodyAccJerk-energy()-Y
+99 tBodyAccJerk-energy()-Z
+100 tBodyAccJerk-iqr()-X
+101 tBodyAccJerk-iqr()-Y
+102 tBodyAccJerk-iqr()-Z
+103 tBodyAccJerk-entropy()-X
+104 tBodyAccJerk-entropy()-Y
+105 tBodyAccJerk-entropy()-Z
+106 tBodyAccJerk-arCoeff()-X,1
+107 tBodyAccJerk-arCoeff()-X,2
+108 tBodyAccJerk-arCoeff()-X,3
+109 tBodyAccJerk-arCoeff()-X,4
+110 tBodyAccJerk-arCoeff()-Y,1
+111 tBodyAccJerk-arCoeff()-Y,2
+112 tBodyAccJerk-arCoeff()-Y,3
+113 tBodyAccJerk-arCoeff()-Y,4
+114 tBodyAccJerk-arCoeff()-Z,1
+115 tBodyAccJerk-arCoeff()-Z,2
+116 tBodyAccJerk-arCoeff()-Z,3
+117 tBodyAccJerk-arCoeff()-Z,4
+118 tBodyAccJerk-correlation()-X,Y
+119 tBodyAccJerk-correlation()-X,Z
+120 tBodyAccJerk-correlation()-Y,Z
+121 tBodyGyro-mean()-X
+122 tBodyGyro-mean()-Y
+123 tBodyGyro-mean()-Z
+124 tBodyGyro-std()-X
+125 tBodyGyro-std()-Y
+126 tBodyGyro-std()-Z
+127 tBodyGyro-mad()-X
+128 tBodyGyro-mad()-Y
+129 tBodyGyro-mad()-Z
+130 tBodyGyro-max()-X
+131 tBodyGyro-max()-Y
+132 tBodyGyro-max()-Z
+133 tBodyGyro-min()-X
+134 tBodyGyro-min()-Y
+135 tBodyGyro-min()-Z
+136 tBodyGyro-sma()
+137 tBodyGyro-energy()-X
+138 tBodyGyro-energy()-Y
+139 tBodyGyro-energy()-Z
+140 tBodyGyro-iqr()-X
+141 tBodyGyro-iqr()-Y
+142 tBodyGyro-iqr()-Z
+143 tBodyGyro-entropy()-X
+144 tBodyGyro-entropy()-Y
+145 tBodyGyro-entropy()-Z
+146 tBodyGyro-arCoeff()-X,1
+147 tBodyGyro-arCoeff()-X,2
+148 tBodyGyro-arCoeff()-X,3
+149 tBodyGyro-arCoeff()-X,4
+150 tBodyGyro-arCoeff()-Y,1
+151 tBodyGyro-arCoeff()-Y,2
+152 tBodyGyro-arCoeff()-Y,3
+153 tBodyGyro-arCoeff()-Y,4
+154 tBodyGyro-arCoeff()-Z,1
+155 tBodyGyro-arCoeff()-Z,2
+156 tBodyGyro-arCoeff()-Z,3
+157 tBodyGyro-arCoeff()-Z,4
+158 tBodyGyro-correlation()-X,Y
+159 tBodyGyro-correlation()-X,Z
+160 tBodyGyro-correlation()-Y,Z
+161 tBodyGyroJerk-mean()-X
+162 tBodyGyroJerk-mean()-Y
+163 tBodyGyroJerk-mean()-Z
+164 tBodyGyroJerk-std()-X
+165 tBodyGyroJerk-std()-Y
+166 tBodyGyroJerk-std()-Z
+167 tBodyGyroJerk-mad()-X
+168 tBodyGyroJerk-mad()-Y
+169 tBodyGyroJerk-mad()-Z
+170 tBodyGyroJerk-max()-X
+171 tBodyGyroJerk-max()-Y
+172 tBodyGyroJerk-max()-Z
+173 tBodyGyroJerk-min()-X
+174 tBodyGyroJerk-min()-Y
+175 tBodyGyroJerk-min()-Z
+176 tBodyGyroJerk-sma()
+177 tBodyGyroJerk-energy()-X
+178 tBodyGyroJerk-energy()-Y
+179 tBodyGyroJerk-energy()-Z
+180 tBodyGyroJerk-iqr()-X
+181 tBodyGyroJerk-iqr()-Y
+182 tBodyGyroJerk-iqr()-Z
+183 tBodyGyroJerk-entropy()-X
+184 tBodyGyroJerk-entropy()-Y
+185 tBodyGyroJerk-entropy()-Z
+186 tBodyGyroJerk-arCoeff()-X,1
+187 tBodyGyroJerk-arCoeff()-X,2
+188 tBodyGyroJerk-arCoeff()-X,3
+189 tBodyGyroJerk-arCoeff()-X,4
+190 tBodyGyroJerk-arCoeff()-Y,1
+191 tBodyGyroJerk-arCoeff()-Y,2
+192 tBodyGyroJerk-arCoeff()-Y,3
+193 tBodyGyroJerk-arCoeff()-Y,4
+194 tBodyGyroJerk-arCoeff()-Z,1
+195 tBodyGyroJerk-arCoeff()-Z,2
+196 tBodyGyroJerk-arCoeff()-Z,3
+197 tBodyGyroJerk-arCoeff()-Z,4
+198 tBodyGyroJerk-correlation()-X,Y
+199 tBodyGyroJerk-correlation()-X,Z
+200 tBodyGyroJerk-correlation()-Y,Z
+201 tBodyAccMag-mean()
+202 tBodyAccMag-std()
+203 tBodyAccMag-mad()
+204 tBodyAccMag-max()
+205 tBodyAccMag-min()
+206 tBodyAccMag-sma()
+207 tBodyAccMag-energy()
+208 tBodyAccMag-iqr()
+209 tBodyAccMag-entropy()
+210 tBodyAccMag-arCoeff()1
+211 tBodyAccMag-arCoeff()2
+212 tBodyAccMag-arCoeff()3
+213 tBodyAccMag-arCoeff()4
+214 tGravityAccMag-mean()
+215 tGravityAccMag-std()
+216 tGravityAccMag-mad()
+217 tGravityAccMag-max()
+218 tGravityAccMag-min()
+219 tGravityAccMag-sma()
+220 tGravityAccMag-energy()
+221 tGravityAccMag-iqr()
+222 tGravityAccMag-entropy()
+223 tGravityAccMag-arCoeff()1
+224 tGravityAccMag-arCoeff()2
+225 tGravityAccMag-arCoeff()3
+226 tGravityAccMag-arCoeff()4
+227 tBodyAccJerkMag-mean()
+228 tBodyAccJerkMag-std()
+229 tBodyAccJerkMag-mad()
+230 tBodyAccJerkMag-max()
+231 tBodyAccJerkMag-min()
+232 tBodyAccJerkMag-sma()
+233 tBodyAccJerkMag-energy()
+234 tBodyAccJerkMag-iqr()
+235 tBodyAccJerkMag-entropy()
+236 tBodyAccJerkMag-arCoeff()1
+237 tBodyAccJerkMag-arCoeff()2
+238 tBodyAccJerkMag-arCoeff()3
+239 tBodyAccJerkMag-arCoeff()4
+240 tBodyGyroMag-mean()
+241 tBodyGyroMag-std()
+242 tBodyGyroMag-mad()
+243 tBodyGyroMag-max()
+244 tBodyGyroMag-min()
+245 tBodyGyroMag-sma()
+246 tBodyGyroMag-energy()
+247 tBodyGyroMag-iqr()
+248 tBodyGyroMag-entropy()
+249 tBodyGyroMag-arCoeff()1
+250 tBodyGyroMag-arCoeff()2
+251 tBodyGyroMag-arCoeff()3
+252 tBodyGyroMag-arCoeff()4
+253 tBodyGyroJerkMag-mean()
+254 tBodyGyroJerkMag-std()
+255 tBodyGyroJerkMag-mad()
+256 tBodyGyroJerkMag-max()
+257 tBodyGyroJerkMag-min()
+258 tBodyGyroJerkMag-sma()
+259 tBodyGyroJerkMag-energy()
+260 tBodyGyroJerkMag-iqr()
+261 tBodyGyroJerkMag-entropy()
+262 tBodyGyroJerkMag-arCoeff()1
+263 tBodyGyroJerkMag-arCoeff()2
+264 tBodyGyroJerkMag-arCoeff()3
+265 tBodyGyroJerkMag-arCoeff()4
+266 fBodyAcc-mean()-X
+267 fBodyAcc-mean()-Y
+268 fBodyAcc-mean()-Z
+269 fBodyAcc-std()-X
+270 fBodyAcc-std()-Y
+271 fBodyAcc-std()-Z
+272 fBodyAcc-mad()-X
+273 fBodyAcc-mad()-Y
+274 fBodyAcc-mad()-Z
+275 fBodyAcc-max()-X
+276 fBodyAcc-max()-Y
+277 fBodyAcc-max()-Z
+278 fBodyAcc-min()-X
+279 fBodyAcc-min()-Y
+280 fBodyAcc-min()-Z
+281 fBodyAcc-sma()
+282 fBodyAcc-energy()-X
+283 fBodyAcc-energy()-Y
+284 fBodyAcc-energy()-Z
+285 fBodyAcc-iqr()-X
+286 fBodyAcc-iqr()-Y
+287 fBodyAcc-iqr()-Z
+288 fBodyAcc-entropy()-X
+289 fBodyAcc-entropy()-Y
+290 fBodyAcc-entropy()-Z
+291 fBodyAcc-maxInds-X
+292 fBodyAcc-maxInds-Y
+293 fBodyAcc-maxInds-Z
+294 fBodyAcc-meanFreq()-X
+295 fBodyAcc-meanFreq()-Y
+296 fBodyAcc-meanFreq()-Z
+297 fBodyAcc-skewness()-X
+298 fBodyAcc-kurtosis()-X
+299 fBodyAcc-skewness()-Y
+300 fBodyAcc-kurtosis()-Y
+301 fBodyAcc-skewness()-Z
+302 fBodyAcc-kurtosis()-Z
+303 fBodyAcc-bandsEnergy()-1,8
+304 fBodyAcc-bandsEnergy()-9,16
+305 fBodyAcc-bandsEnergy()-17,24
+306 fBodyAcc-bandsEnergy()-25,32
+307 fBodyAcc-bandsEnergy()-33,40
+308 fBodyAcc-bandsEnergy()-41,48
+309 fBodyAcc-bandsEnergy()-49,56
+310 fBodyAcc-bandsEnergy()-57,64
+311 fBodyAcc-bandsEnergy()-1,16
+312 fBodyAcc-bandsEnergy()-17,32
+313 fBodyAcc-bandsEnergy()-33,48
+314 fBodyAcc-bandsEnergy()-49,64
+315 fBodyAcc-bandsEnergy()-1,24
+316 fBodyAcc-bandsEnergy()-25,48
+317 fBodyAcc-bandsEnergy()-1,8
+318 fBodyAcc-bandsEnergy()-9,16
+319 fBodyAcc-bandsEnergy()-17,24
+320 fBodyAcc-bandsEnergy()-25,32
+321 fBodyAcc-bandsEnergy()-33,40
+322 fBodyAcc-bandsEnergy()-41,48
+323 fBodyAcc-bandsEnergy()-49,56
+324 fBodyAcc-bandsEnergy()-57,64
+325 fBodyAcc-bandsEnergy()-1,16
+326 fBodyAcc-bandsEnergy()-17,32
+327 fBodyAcc-bandsEnergy()-33,48
+328 fBodyAcc-bandsEnergy()-49,64
+329 fBodyAcc-bandsEnergy()-1,24
+330 fBodyAcc-bandsEnergy()-25,48
+331 fBodyAcc-bandsEnergy()-1,8
+332 fBodyAcc-bandsEnergy()-9,16
+333 fBodyAcc-bandsEnergy()-17,24
+334 fBodyAcc-bandsEnergy()-25,32
+335 fBodyAcc-bandsEnergy()-33,40
+336 fBodyAcc-bandsEnergy()-41,48
+337 fBodyAcc-bandsEnergy()-49,56
+338 fBodyAcc-bandsEnergy()-57,64
+339 fBodyAcc-bandsEnergy()-1,16
+340 fBodyAcc-bandsEnergy()-17,32
+341 fBodyAcc-bandsEnergy()-33,48
+342 fBodyAcc-bandsEnergy()-49,64
+343 fBodyAcc-bandsEnergy()-1,24
+344 fBodyAcc-bandsEnergy()-25,48
+345 fBodyAccJerk-mean()-X
+346 fBodyAccJerk-mean()-Y
+347 fBodyAccJerk-mean()-Z
+348 fBodyAccJerk-std()-X
+349 fBodyAccJerk-std()-Y
+350 fBodyAccJerk-std()-Z
+351 fBodyAccJerk-mad()-X
+352 fBodyAccJerk-mad()-Y
+353 fBodyAccJerk-mad()-Z
+354 fBodyAccJerk-max()-X
+355 fBodyAccJerk-max()-Y
+356 fBodyAccJerk-max()-Z
+357 fBodyAccJerk-min()-X
+358 fBodyAccJerk-min()-Y
+359 fBodyAccJerk-min()-Z
+360 fBodyAccJerk-sma()
+361 fBodyAccJerk-energy()-X
+362 fBodyAccJerk-energy()-Y
+363 fBodyAccJerk-energy()-Z
+364 fBodyAccJerk-iqr()-X
+365 fBodyAccJerk-iqr()-Y
+366 fBodyAccJerk-iqr()-Z
+367 fBodyAccJerk-entropy()-X
+368 fBodyAccJerk-entropy()-Y
+369 fBodyAccJerk-entropy()-Z
+370 fBodyAccJerk-maxInds-X
+371 fBodyAccJerk-maxInds-Y
+372 fBodyAccJerk-maxInds-Z
+373 fBodyAccJerk-meanFreq()-X
+374 fBodyAccJerk-meanFreq()-Y
+375 fBodyAccJerk-meanFreq()-Z
+376 fBodyAccJerk-skewness()-X
+377 fBodyAccJerk-kurtosis()-X
+378 fBodyAccJerk-skewness()-Y
+379 fBodyAccJerk-kurtosis()-Y
+380 fBodyAccJerk-skewness()-Z
+381 fBodyAccJerk-kurtosis()-Z
+382 fBodyAccJerk-bandsEnergy()-1,8
+383 fBodyAccJerk-bandsEnergy()-9,16
+384 fBodyAccJerk-bandsEnergy()-17,24
+385 fBodyAccJerk-bandsEnergy()-25,32
+386 fBodyAccJerk-bandsEnergy()-33,40
+387 fBodyAccJerk-bandsEnergy()-41,48
+388 fBodyAccJerk-bandsEnergy()-49,56
+389 fBodyAccJerk-bandsEnergy()-57,64
+390 fBodyAccJerk-bandsEnergy()-1,16
+391 fBodyAccJerk-bandsEnergy()-17,32
+392 fBodyAccJerk-bandsEnergy()-33,48
+393 fBodyAccJerk-bandsEnergy()-49,64
+394 fBodyAccJerk-bandsEnergy()-1,24
+395 fBodyAccJerk-bandsEnergy()-25,48
+396 fBodyAccJerk-bandsEnergy()-1,8
+397 fBodyAccJerk-bandsEnergy()-9,16
+398 fBodyAccJerk-bandsEnergy()-17,24
+399 fBodyAccJerk-bandsEnergy()-25,32
+400 fBodyAccJerk-bandsEnergy()-33,40
+401 fBodyAccJerk-bandsEnergy()-41,48
+402 fBodyAccJerk-bandsEnergy()-49,56
+403 fBodyAccJerk-bandsEnergy()-57,64
+404 fBodyAccJerk-bandsEnergy()-1,16
+405 fBodyAccJerk-bandsEnergy()-17,32
+406 fBodyAccJerk-bandsEnergy()-33,48
+407 fBodyAccJerk-bandsEnergy()-49,64
+408 fBodyAccJerk-bandsEnergy()-1,24
+409 fBodyAccJerk-bandsEnergy()-25,48
+410 fBodyAccJerk-bandsEnergy()-1,8
+411 fBodyAccJerk-bandsEnergy()-9,16
+412 fBodyAccJerk-bandsEnergy()-17,24
+413 fBodyAccJerk-bandsEnergy()-25,32
+414 fBodyAccJerk-bandsEnergy()-33,40
+415 fBodyAccJerk-bandsEnergy()-41,48
+416 fBodyAccJerk-bandsEnergy()-49,56
+417 fBodyAccJerk-bandsEnergy()-57,64
+418 fBodyAccJerk-bandsEnergy()-1,16
+419 fBodyAccJerk-bandsEnergy()-17,32
+420 fBodyAccJerk-bandsEnergy()-33,48
+421 fBodyAccJerk-bandsEnergy()-49,64
+422 fBodyAccJerk-bandsEnergy()-1,24
+423 fBodyAccJerk-bandsEnergy()-25,48
+424 fBodyGyro-mean()-X
+425 fBodyGyro-mean()-Y
+426 fBodyGyro-mean()-Z
+427 fBodyGyro-std()-X
+428 fBodyGyro-std()-Y
+429 fBodyGyro-std()-Z
+430 fBodyGyro-mad()-X
+431 fBodyGyro-mad()-Y
+432 fBodyGyro-mad()-Z
+433 fBodyGyro-max()-X
+434 fBodyGyro-max()-Y
+435 fBodyGyro-max()-Z
+436 fBodyGyro-min()-X
+437 fBodyGyro-min()-Y
+438 fBodyGyro-min()-Z
+439 fBodyGyro-sma()
+440 fBodyGyro-energy()-X
+441 fBodyGyro-energy()-Y
+442 fBodyGyro-energy()-Z
+443 fBodyGyro-iqr()-X
+444 fBodyGyro-iqr()-Y
+445 fBodyGyro-iqr()-Z
+446 fBodyGyro-entropy()-X
+447 fBodyGyro-entropy()-Y
+448 fBodyGyro-entropy()-Z
+449 fBodyGyro-maxInds-X
+450 fBodyGyro-maxInds-Y
+451 fBodyGyro-maxInds-Z
+452 fBodyGyro-meanFreq()-X
+453 fBodyGyro-meanFreq()-Y
+454 fBodyGyro-meanFreq()-Z
+455 fBodyGyro-skewness()-X
+456 fBodyGyro-kurtosis()-X
+457 fBodyGyro-skewness()-Y
+458 fBodyGyro-kurtosis()-Y
+459 fBodyGyro-skewness()-Z
+460 fBodyGyro-kurtosis()-Z
+461 fBodyGyro-bandsEnergy()-1,8
+462 fBodyGyro-bandsEnergy()-9,16
+463 fBodyGyro-bandsEnergy()-17,24
+464 fBodyGyro-bandsEnergy()-25,32
+465 fBodyGyro-bandsEnergy()-33,40
+466 fBodyGyro-bandsEnergy()-41,48
+467 fBodyGyro-bandsEnergy()-49,56
+468 fBodyGyro-bandsEnergy()-57,64
+469 fBodyGyro-bandsEnergy()-1,16
+470 fBodyGyro-bandsEnergy()-17,32
+471 fBodyGyro-bandsEnergy()-33,48
+472 fBodyGyro-bandsEnergy()-49,64
+473 fBodyGyro-bandsEnergy()-1,24
+474 fBodyGyro-bandsEnergy()-25,48
+475 fBodyGyro-bandsEnergy()-1,8
+476 fBodyGyro-bandsEnergy()-9,16
+477 fBodyGyro-bandsEnergy()-17,24
+478 fBodyGyro-bandsEnergy()-25,32
+479 fBodyGyro-bandsEnergy()-33,40
+480 fBodyGyro-bandsEnergy()-41,48
+481 fBodyGyro-bandsEnergy()-49,56
+482 fBodyGyro-bandsEnergy()-57,64
+483 fBodyGyro-bandsEnergy()-1,16
+484 fBodyGyro-bandsEnergy()-17,32
+485 fBodyGyro-bandsEnergy()-33,48
+486 fBodyGyro-bandsEnergy()-49,64
+487 fBodyGyro-bandsEnergy()-1,24
+488 fBodyGyro-bandsEnergy()-25,48
+489 fBodyGyro-bandsEnergy()-1,8
+490 fBodyGyro-bandsEnergy()-9,16
+491 fBodyGyro-bandsEnergy()-17,24
+492 fBodyGyro-bandsEnergy()-25,32
+493 fBodyGyro-bandsEnergy()-33,40
+494 fBodyGyro-bandsEnergy()-41,48
+495 fBodyGyro-bandsEnergy()-49,56
+496 fBodyGyro-bandsEnergy()-57,64
+497 fBodyGyro-bandsEnergy()-1,16
+498 fBodyGyro-bandsEnergy()-17,32
+499 fBodyGyro-bandsEnergy()-33,48
+500 fBodyGyro-bandsEnergy()-49,64
+501 fBodyGyro-bandsEnergy()-1,24
+502 fBodyGyro-bandsEnergy()-25,48
+503 fBodyAccMag-mean()
+504 fBodyAccMag-std()
+505 fBodyAccMag-mad()
+506 fBodyAccMag-max()
+507 fBodyAccMag-min()
+508 fBodyAccMag-sma()
+509 fBodyAccMag-energy()
+510 fBodyAccMag-iqr()
+511 fBodyAccMag-entropy()
+512 fBodyAccMag-maxInds
+513 fBodyAccMag-meanFreq()
+514 fBodyAccMag-skewness()
+515 fBodyAccMag-kurtosis()
+516 fBodyBodyAccJerkMag-mean()
+517 fBodyBodyAccJerkMag-std()
+518 fBodyBodyAccJerkMag-mad()
+519 fBodyBodyAccJerkMag-max()
+520 fBodyBodyAccJerkMag-min()
+521 fBodyBodyAccJerkMag-sma()
+522 fBodyBodyAccJerkMag-energy()
+523 fBodyBodyAccJerkMag-iqr()
+524 fBodyBodyAccJerkMag-entropy()
+525 fBodyBodyAccJerkMag-maxInds
+526 fBodyBodyAccJerkMag-meanFreq()
+527 fBodyBodyAccJerkMag-skewness()
+528 fBodyBodyAccJerkMag-kurtosis()
+529 fBodyBodyGyroMag-mean()
+530 fBodyBodyGyroMag-std()
+531 fBodyBodyGyroMag-mad()
+532 fBodyBodyGyroMag-max()
+533 fBodyBodyGyroMag-min()
+534 fBodyBodyGyroMag-sma()
+535 fBodyBodyGyroMag-energy()
+536 fBodyBodyGyroMag-iqr()
+537 fBodyBodyGyroMag-entropy()
+538 fBodyBodyGyroMag-maxInds
+539 fBodyBodyGyroMag-meanFreq()
+540 fBodyBodyGyroMag-skewness()
+541 fBodyBodyGyroMag-kurtosis()
+542 fBodyBodyGyroJerkMag-mean()
+543 fBodyBodyGyroJerkMag-std()
+544 fBodyBodyGyroJerkMag-mad()
+545 fBodyBodyGyroJerkMag-max()
+546 fBodyBodyGyroJerkMag-min()
+547 fBodyBodyGyroJerkMag-sma()
+548 fBodyBodyGyroJerkMag-energy()
+549 fBodyBodyGyroJerkMag-iqr()
+550 fBodyBodyGyroJerkMag-entropy()
+551 fBodyBodyGyroJerkMag-maxInds
+552 fBodyBodyGyroJerkMag-meanFreq()
+553 fBodyBodyGyroJerkMag-skewness()
+554 fBodyBodyGyroJerkMag-kurtosis()
+555 angle(tBodyAccMean,gravity)
+556 angle(tBodyAccJerkMean),gravityMean)
+557 angle(tBodyGyroMean,gravityMean)
+558 angle(tBodyGyroJerkMean,gravityMean)
+559 angle(X,gravityMean)
+560 angle(Y,gravityMean)
+561 angle(Z,gravityMean)
