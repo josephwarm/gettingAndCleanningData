@@ -67,6 +67,7 @@ create_avg_tidy_set <- function(activityDataset, trainDir = trainPath, testDir =
      combine_subject                      <- rbind(train_subject, test_subject)
      names(combine_subject)               <- "subjectID"
      activityDataset$"subjectID"          <- combine_subject$"subjectID"
+	 # remove dup mesurements
      activityDataset                      <- activityDataset[, ! duplicated(colnames(activityDataset))]
      activityDataset_melt                 <- melt(activityDataset, id.vars = c("activityID", "activityName", "subjectID"))
      # compute the mean 
